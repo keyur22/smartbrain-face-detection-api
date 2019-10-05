@@ -1,10 +1,21 @@
-# smartbrain-api
+# Smartbrain Face Detection App
 
-The app allows us to detect faces containing in an image. An entry count is available for each user which tells us how many images are being detected by the logged in user. A postgreSQL database is used to keep track of all the user related data.
+This app allows the user to detect faces in the image uploaded by them.
+It makes use of Clarifai face detection API.
+Users can register and upload the image. 
+An entry count is maintained for every user which indicates how many times the user has detected faces.
 
-This repo is the server containing REST APIs to deal with requests from the front end. The database is also connected.
-Clarifai is used for face detection in the images.
+Front End of the app is created using React.
+NodeJS, ExpressJS is used for server side scripting.
+PostgreSql is used to store user information.
 
-**Technologies Used:** NodeJS, Express, postgreSQL
+External Libraries like Bcrypt and KnexJS are also used.
 
-**Libraries Used:** Knex, Bcrypt
+This repo contains source code for the back end part of the app.
+The app is deployed on heroku along with the server and database.
+
+**Technologies Used:** HTML%, CSS3, JS(ES6, ES7, ES8), React, NodeJS, ExpressJS, postgreSQL, SQL
+
+**Libraries Used:** Bcrypt, KnexJS
+
+**Link:** https://smartbrain-face-detection.herokuapp.com/
